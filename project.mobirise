@@ -34,7 +34,8 @@
     "gdpr": "",
     "siteUrl": "undefined",
     "uniqCompNum": 12,
-    "versionPublish": "4.10.2"
+    "versionPublish": "4.10.2",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -92,7 +93,7 @@
             },
             "video": {
               "src": "https://www.youtube.com/watch?v=unVRHkBqlN4",
-              "autoplay": false,
+              "autoplay": "on",
               "loop": false,
               "active": true
             }
