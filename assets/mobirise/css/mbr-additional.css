@@ -1,7 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
 
 
 
@@ -417,6 +418,16 @@ h6,
 #header1-1 .btn {
   font-size: 30px;
 }
+#header2-d .mbr-section-text B {
+  font-size: 22px;
+  font-family: 'Lora', serif;
+}
+#header2-d .mbr-section-text {
+  text-align: left;
+}
+#header2-d .mbr-section-title {
+  text-align: left;
+}
 #msg-box3-a .mbr-section-title,
 #msg-box3-a p {
   color: #000;
@@ -430,6 +441,9 @@ h6,
 #content5-9 .mbr-section-title,
 #content5-9 p {
   color: #fff;
+}
+#form1-e .form-control-label {
+  color: #232323;
 }
 #social-buttons2-5 .mbr-section-title,
 #social-buttons2-5 .btn-social {

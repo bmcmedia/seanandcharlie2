@@ -21,7 +21,8 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#8d8f93"
+        "#8d8f93",
+        "#3d3535"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -33,7 +34,7 @@
     "cookiesAlert": "",
     "gdpr": "",
     "siteUrl": "undefined",
-    "uniqCompNum": 12,
+    "uniqCompNum": 15,
     "versionPublish": "4.10.2",
     "screenshot": "screenshot.png"
   },
@@ -84,26 +85,64 @@
         },
         {
           "_params": {
-            "showText": false
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": "58",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/seanfrombelowbourb-960x640.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.5"
           },
           "media": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/image1.jpg",
-              "width": 1400
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
             },
             "video": {
-              "src": "https://www.youtube.com/watch?v=unVRHkBqlN4",
-              "autoplay": "on",
+              "src": "https://youtu.be/unVRHkBqlN4",
+              "aspectratio": "16:9",
+              "autoplay": false,
               "loop": false,
               "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
             }
           },
-          "text": "",
+          "title": "Best Cover Band in South Chicago",
+          "text": "<b>Sean and Charlie are an alternative, bluegrass, celtic, country, dance, folk, pop, rock group from Chicago south. The premier cover band of south Chicago.<br>Sean and Charlie are the perfect addition to any wedding celebration! They have performed and facilitated 100s of weddings and have created that unique experience for all who attended. If you want to set your event apart from the typical D.J. or cover band, then look no further cause we can provide a solution.<br>They offer a performance only package if you already have a D.J.<br><br>They also offer a complete package that includes performance, D.J, Emcee, Ceremony, cocktail hour, etc<br>Send us an email today and customize your wedding package</b>.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "image1",
-          "_anchor": "image1-7"
+          "_name": "header2",
+          "_anchor": "header2-d",
+          "_styles": {
+            ".mbr-section-text B": {
+              "font-size": "22px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".mbr-section-text": {
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            }
+          }
         },
         {
           "_inherit": "msg-box8",
@@ -139,12 +178,12 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "NEW STYLE<br><br>",
+          "title": "Premium Entertainment",
           "text": "<p>Sean and Charlie are an alternative, bluegrass, celtic, country, dance, folk, pop, rock group from Chicago south. The premier cover band of south Chicago. </p><p>Sean and Charlie are the perfect addition to any wedding celebration! They have performed and facilitated 100s of weddings and have created that unique experience for all who attended. If you want to set your event apart from the typical D.J. or cover band, then look no further cause we can provide a solution.</p><div>They offer a performance only package if you already have a D.J.</div><div><br></div><div>They also offer a complete package that includes performance, D.J, Emcee, Ceremony, cocktail hour, etc</div><div><span style=\"font-size: 1.07rem;\">Send us an email today and customize your wedding package.</span><br></div><div><br></div><div><br></div><p></p>",
           "_tags": [
             "Theme"
           ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "_name": "msg-box3",
           "_anchor": "msg-box3-a"
         },
@@ -208,6 +247,63 @@
           ],
           "_name": "header1",
           "_anchor": "header1-b"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "CONTACT US",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "form": {
+            "action": "briancieplak@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-e",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
         },
         {
           "_styles": {
